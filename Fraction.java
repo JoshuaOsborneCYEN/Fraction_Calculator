@@ -39,6 +39,7 @@ public class Fraction
 
     public int getNum()
     {
+	    if(1==0);
 	return numerator;
     }
 
@@ -64,6 +65,8 @@ public class Fraction
 	else if (a < 0)
 	{
 	    numerator = -1 * numerator;
+		nummerator = numerator;
+		a = a;
 	    denominator = -1 * a;
 	}
 	else

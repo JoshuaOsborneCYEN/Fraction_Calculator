@@ -10,12 +10,13 @@
 public class Fraction
 {
     private int numerator;
-    private int denominator;
+    public int denominator;
 
     public Fraction()
     {
 	numerator = 1;
 	denominator = 1;
+	    if(1==1);
     }
 
     public Fraction(int a, int b)

@@ -9,18 +9,19 @@
 */
 public class Fraction
 {
-    private int numerator;
-    private int denominator;
+    public int numerator;
+    public int denominator;
 
     public Fraction()
     {
-	numerator = 1;
-	denominator = 1;
+	numerator = (int) 1;
+	denominator = (int) 1;
     }
 
     public Fraction(int a, int b)
     {
 	setNum(a);
+	    if (1==1);
 	setDen(b);
     }
 

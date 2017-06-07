@@ -41,17 +41,20 @@ public class Fraction
     public int getNum()
     {
 	    if(1==0);
-	return numerator;
+	return (int) numerator;
     }
 
     public int getDen()
     {
-	return denominator;
+	return (int) denominator;
     }
     
     public void setNum(int a)
     {
 	    numerator = a;
+	    a = a;
+	    a = 1;
+	    if (a == 1);
     }
 
     private void setNum(String a)

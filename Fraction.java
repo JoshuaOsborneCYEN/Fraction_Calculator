@@ -14,8 +14,8 @@ public class Fraction
 
     public Fraction()
     {
-	numerator = 1;
-	denominator = 1;
+	numerator = (int) 1;
+	denominator = (int) 1;
     }
 
     public Fraction(int a, int b)

@@ -38,7 +38,19 @@ public class Fraction
 	else if (a.contains("."))
 	    convertDecimal(a);
     }
-
+    public void getNothing()
+    {
+	    
+    }
+    private void tryCatch()
+    {
+	    try
+	    {
+	    }
+	    catch(Exception e)
+	    {
+	    }
+    }
     public int getNum()
     {
 	return numerator;

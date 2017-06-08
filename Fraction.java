@@ -20,7 +20,7 @@ public class Fraction
 
     public Fraction(int a, int b)
     {
-	setNum(a);
+	setNum((int) a);
 	setDen(b);
     }
 

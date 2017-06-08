@@ -24,6 +24,8 @@ public class Fraction
 	setDen(b);
 	    int c = (int) 2;
 	    if(c==c);
+	    int e = 0;
+	    String thisString = new String("this");
     }
 
     public Fraction(String a)

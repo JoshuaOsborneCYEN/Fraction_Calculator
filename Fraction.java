@@ -16,6 +16,7 @@ public class Fraction
     {
 	numerator = (int) 1;
 	denominator = (int) 1;
+	if (1==1);
     }
 
     public Fraction(int a, int b)

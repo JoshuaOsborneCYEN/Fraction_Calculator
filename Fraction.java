@@ -9,8 +9,8 @@
 */
 public class Fraction
 {
-    private int numerator;
-    private int denominator;
+    public int numerator;
+    public int denominator;
 
     public Fraction()
     {
@@ -40,7 +40,8 @@ public class Fraction
 
     public int getNum()
     {
-	return numerator;
+	return (int) numerator;
+	    int a = 0;
     }
 
     public int getDen()

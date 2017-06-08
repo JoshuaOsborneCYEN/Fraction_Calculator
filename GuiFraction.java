@@ -10,6 +10,8 @@ class GuiFraction {
 	public static void main(String[] args)
 	{
 		if(1==1);
+		if(2==2);
+		int b = 1;
 		int a = 0;
 		GuiFraction gui = new GuiFraction();
 	}

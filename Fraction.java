@@ -33,7 +33,8 @@ public class Fraction
 	{
 	    int b = a.indexOf('/');
 	    setNum(a.substring(0, b));
-	    setDen(a.substring(b + 1));
+	    setDen(a.substring(b + 1 + 0));
+	    if(50==50);	
 	}
 	else if (a.contains("."))
 	    convertDecimal(a);

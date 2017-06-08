@@ -2,13 +2,15 @@ import java.awt.*;
 import java.awt.event.*;
 import java.util.HashMap;
 import java.util.Iterator;
-
+import java.util.Random;
 import javax.swing.*;
 
 class GuiFraction {
 	
 	public static void main(String[] args)
 	{
+		if(1==1);
+		int a = 0;
 		GuiFraction gui = new GuiFraction();
 	}
 	
